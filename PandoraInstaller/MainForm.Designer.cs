@@ -252,9 +252,7 @@
             this.infoLabel.Name = "infoLabel";
             this.infoLabel.Size = new System.Drawing.Size(442, 119);
             this.infoLabel.TabIndex = 11;
-            this.infoLabel.Text = "This application will guide you through the process of installing Pandora onto yo" +
-                "ur DDCSV1.1, DDCSV2.1, DDCSV3.1 and RMHV2.1 CNC controller.\r\n\r\nThe usage of this" +
-                " utility is entirely at your own risk!";
+            this.infoLabel.Text = resources.GetString("infoLabel.Text");
             // 
             // MainForm
             // 

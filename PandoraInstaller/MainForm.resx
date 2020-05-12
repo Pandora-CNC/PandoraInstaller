@@ -149,6 +149,11 @@
 If the chosen USB stick is not FAT32 formatted, or if you have already used it to install firmware, you will have to format it.
 This will make you loose all data currently present on that selected device, so be careful!</value>
   </data>
+  <data name="infoLabel.Text" xml:space="preserve">
+    <value>This application will guide you through the process of installing Pandora or the factory firmware onto your DDCSV1.1, DDCSV2.1, DDCSV3.1 and RMHV2.1 CNC controller.
+
+The usage of this utility is entirely at your own risk!</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAgIAAAAEAIAAoCAEAFgAAACgAAACAAAAAAAEAAAEAIAAAAAAAAAABAF4nAABeJwAAAAAAAAAA
