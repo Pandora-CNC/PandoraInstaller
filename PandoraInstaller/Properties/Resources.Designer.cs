@@ -91,6 +91,16 @@ namespace PandoraInstaller.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        /// </summary>
+        internal static byte[] DDCSVx1_20200306112 {
+            get {
+                object obj = ResourceManager.GetObject("DDCSVx1_20200306112", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Forum {

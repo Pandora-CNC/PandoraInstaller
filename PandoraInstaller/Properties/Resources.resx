@@ -139,4 +139,7 @@
   <data name="Pandora_20180818" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pandora-20180818.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="DDCSVx1_20200306112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DDCSVx1-20200306112.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

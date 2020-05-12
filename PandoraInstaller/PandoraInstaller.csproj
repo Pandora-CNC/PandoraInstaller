@@ -99,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Installer.ico" />
+    <None Include="Resources\DDCSVx1-20200306112.exe" />
     <None Include="Resources\DDCSV11-RMHV21-2018073098.exe" />
     <None Include="Resources\Pandora-20180818.exe" />
   </ItemGroup>

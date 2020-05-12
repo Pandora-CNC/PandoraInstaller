@@ -144,10 +144,6 @@
         m2TMYZUQAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Please start by selecting the version of Pandora or the original firmware to be installed.
-The firmware is the same across the DDCSV1.1, the RMHV2.1 and to some extend the DDCSV2.1. Note that the most recommended one is never the latest one!</value>
-  </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Next, continue by selecting a FAT32 formatted USB stick below.
 If the chosen USB stick is not FAT32 formatted, or if you have already used it to install firmware, you will have to format it.

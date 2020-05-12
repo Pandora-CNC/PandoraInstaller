@@ -349,19 +349,21 @@ namespace PandoraInstaller
 
             // Add the new images
 
+            // Factory:
+            // 06/03/2020 [112] (Latest)
+            FirmwareImages.Add(new FirmwareImage(true, "06/03/2020 [r112]", "Latest, Recommended for DDCSV1.1/2.1/3.1", Properties.Resources.DDCSVx1_20200306112));
+            // 30/07/2018 [98]
+            FirmwareImages.Add(new FirmwareImage(true, "30/07/2018 [r98]", "DDCSV1.1 and DDCSV2.1", Properties.Resources.DDCSV11_RMHV21_2018073098));
+            // 11/08/2017 [89]
+            FirmwareImages.Add(new FirmwareImage(true, "11/08/2017 [r89]", "DDCSV1.1 and probably DDCSV2.1 ", Properties.Resources.DDCSV11_2017081189));
+            // 10/06/2016 [80]
+            FirmwareImages.Add(new FirmwareImage(true, "10/06/2016 [r80]", "Proven for DDCSV1.1 - Not 2.1!", Properties.Resources.DDCSV11_2016061080));
+
             // Pandora:
             // 16/04/2017 (Recommended)
             FirmwareImages.Add(new FirmwareImage(false, "16/04/2017", "Most recommended", Properties.Resources.Pandora_20170416));
             // 26/08/2018 (Latest Beta)
             FirmwareImages.Add(new FirmwareImage(false, "26/08/2018", "Latest Beta!", Properties.Resources.Pandora_20180818));
-
-            // Factory:
-            // 11/08/2017 [89]
-            FirmwareImages.Add(new FirmwareImage(true, "11/08/2017 [r89]", "Recommended - Should support DDCSV2.1 ", Properties.Resources.DDCSV11_2017081189));
-            // 30/07/2018 [98] (Latest)
-            FirmwareImages.Add(new FirmwareImage(true, "30/07/2018 [r98]", "Latest", Properties.Resources.DDCSV11_RMHV21_2018073098));
-            // 10/06/2016 [80]
-            FirmwareImages.Add(new FirmwareImage(true, "10/06/2016 [r80]", "Proven - No DDCSV2.1!", Properties.Resources.DDCSV11_2016061080));
         }
     }
 }

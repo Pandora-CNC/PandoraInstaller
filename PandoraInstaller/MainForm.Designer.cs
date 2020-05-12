@@ -83,17 +83,17 @@
             this.versionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.versionLabel.AutoSize = true;
             this.versionLabel.ForeColor = System.Drawing.Color.Gainsboro;
-            this.versionLabel.Location = new System.Drawing.Point(136, 23);
+            this.versionLabel.Location = new System.Drawing.Point(136, 15);
             this.versionLabel.Name = "versionLabel";
-            this.versionLabel.Size = new System.Drawing.Size(71, 13);
+            this.versionLabel.Size = new System.Drawing.Size(191, 26);
             this.versionLabel.TabIndex = 7;
-            this.versionLabel.Text = "Installer v1.6";
+            this.versionLabel.Text = "Installer v1.7\r\nSoftware © 2017-2020, Pandora-CNC";
             // 
             // logoImage
             // 
             this.logoImage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.logoImage.Image = ((System.Drawing.Image)(resources.GetObject("logoImage.Image")));
-            this.logoImage.Location = new System.Drawing.Point(12, 12);
+            this.logoImage.Location = new System.Drawing.Point(12, 14);
             this.logoImage.Name = "logoImage";
             this.logoImage.Size = new System.Drawing.Size(118, 33);
             this.logoImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -138,7 +138,9 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(427, 40);
             this.label1.TabIndex = 3;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.Text = "Please start by selecting the version of Pandora or the original firmware to be i" +
+                "nstalled.\r\nThe official 2020 firmware runs on all devices. Concerning Pandora, n" +
+                "ote it won\'t run on DDCSV3.1!";
             // 
             // versionCbox
             // 
@@ -251,8 +253,8 @@
             this.infoLabel.Size = new System.Drawing.Size(442, 119);
             this.infoLabel.TabIndex = 11;
             this.infoLabel.Text = "This application will guide you through the process of installing Pandora onto yo" +
-                "ur DDCSV1.1, DDCSV2.1 and RMHV2.1 CNC controller.\r\n\r\nThe usage of this utility i" +
-                "s entirely at your own risk!";
+                "ur DDCSV1.1, DDCSV2.1, DDCSV3.1 and RMHV2.1 CNC controller.\r\n\r\nThe usage of this" +
+                " utility is entirely at your own risk!";
             // 
             // MainForm
             // 

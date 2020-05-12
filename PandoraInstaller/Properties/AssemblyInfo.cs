@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
 [assembly: AssemblyTitle("PandoraInstaller")]
-[assembly: AssemblyDescription("Utility for writing firmware updates for Chinese CNC controllers to USB sticks.")]
+[assembly: AssemblyDescription("Utility for writing firmware updates for DDCSV1.1, 2.1 and 3.1 controllers to USB sticks.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("PandoraInstaller")]
-[assembly: AssemblyCopyright("Copyright © Pandora CNC Development Team, pandora-cnc.eu 2017-2018")]
+[assembly: AssemblyCopyright("Copyright © Benedikt at the Pandora CNC Development Team, pandora-cnc.eu 2017-2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 // übernehmen, indem Sie "*" eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.6.0.0")]
-[assembly: AssemblyFileVersion("1.6.0.0")]
+[assembly: AssemblyVersion("1.7.0.0")]
+[assembly: AssemblyFileVersion("1.7.0.0")]
